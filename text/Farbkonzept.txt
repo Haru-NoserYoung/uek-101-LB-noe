@@ -1,0 +1,12 @@
+Farbkonzept
+
+Hintergrund:
+
+#D1D8DD
+Header:
+#787878
+Navbar:
+#585858
+
+footer:
+#3f3f3f
