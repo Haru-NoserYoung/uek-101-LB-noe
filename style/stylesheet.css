@@ -101,6 +101,8 @@ text-align: center;
 
 /* Kontaktformular */
 .kontaktformular {
+
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -134,18 +136,54 @@ text-align: center;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Blog */
-.blogposts  {
+
+@media screen and (max-width: 900px ) {
+    
+.blogposts {
+    border-radius: 5%;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.karten-container {
+    display: grid;
+    justify-content: center;
+    gap: 20px 30px;
+}
+}
+
+@media screen and (min-width: 901px ) {
+    .blogposts  {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    width: 300px;
-    padding: 20px;
-
-    
      border-radius: 5%;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .karten-container {
@@ -153,7 +191,8 @@ text-align: center;
     grid-template-columns: 200px 200px;
     justify-content: center;
     gap: 20px 30px;
-}
+}}
+
 
 .karte {
     width: 200px;
