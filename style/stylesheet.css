@@ -25,18 +25,17 @@ width: 100%;
 
 }
 
-.carousel-item img {
-  width: 100%;
-  height: 450px;             /* Dieselbe feste Karussell-Höhe */
-  object-fit: cover;         /* Bild füllt das gesamte Kästchen aus */
-  object-position: center;   /* Das Bild wird in der Mitte zentriert */
+.carousel {
+  background-color: #3f3f3f;
 }
 
 
 
 #seiten {
     float: right;
-
+    color: #0c0c0c;
+    background-color: #E7BC13;
+    border-color: #90760e;
 }
 
 
@@ -82,11 +81,6 @@ a:hover {
 
 
 
-.footerschwarz {
-
-    background-color: #212121;
-}
-
 
 .footer {
  height: 8em;
@@ -130,34 +124,156 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+.carousel-container {
+    position: relative;
+}
+
+.kontaktformular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    padding: 20px;
+
+    background-color: #dfe2e2;
+     border-radius: 5%;
+}
+
+.kontaktformular input,
+.kontaktformular textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.kontaktformular textarea {
+    height: 100px;
+}
+
+.kontaktformular button {
+    display: block;
+    margin: 10px auto 0;
+    
+    border-radius: 20%;
+}
+
+
+
+
+.blogposts  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    padding: 20px;
+
+    
+     border-radius: 5%;
+}
+#seiten {
+    float: right;
+
+}
+
+.karten-container {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    gap: 20px 30px;
+}
+
+.karte {
+    width: 200px;
+    position: relative;
+}
+
+.karte img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.karte p {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+
+    background-color: #585858;
+    color: #D1D8DD;
+    font-size: 12px;
+
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10;
+
+    transition: opacity 0.2s;
+}
+
+.karte:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+.karte h2 {
+    margin: 0;
+    padding: 8px;
+    background-color: #585858;
+    color: #D1D8DD;
+    font-size: 20px;
+}
+
+
+.karte {
+    width: 200px;
+    justify-content: center;
+}
+
+
+/* social medias */
+
 .social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;         /* Breite des Kästchens/Kreises */
-  height: 40px;        /* Höhe des Kästchens/Kreises */
-  border-radius: 50%;   /* Macht das Kästchen rund (für eckig einfach löschen) */
-  transition: background-color 0.3s ease; /* Weicher Übergang beim Hovern */
+  width: 40px;         
+  height: 40px;       
+  border-radius: 50%;   
+  transition: background-color 0.3s ease; 
 }
 
-/* Der Hover-Effekt: Kästchen/Kreis erscheint */
-.social-link:hover {
-  background-color: #1877F2; /* Facebook-Blau (oder jede andere Farbe) */
-}
 
-/* Styling für das Icon selbst */
+
+
+
 .social-link img {
-  width: 20px;         /* Grösse des Icons im Kästchen */
+  width: 20px;       
   height: auto;
 }
 
-/* Der Hover-Effekt: Kästchen/Kreis erscheint */
+
 .social-link:hover {
-  background-color: #a89f00; /* Facebook-Blau (oder jede andere Farbe) */
+  background-color: #a89f00; 
+  
 }
 
-/* Styling für das Icon selbst */
+
+
+
 .social-link img {
-  width: 20px;         /* Grösse des Icons im Kästchen */
-  height: auto;
+  width: 20px;       
 }

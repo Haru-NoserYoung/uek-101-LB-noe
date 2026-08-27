@@ -19,7 +19,7 @@
          <a href="blog.html">Blog</a>
         <a href="contact.html">kontakt</a>
         <a href="../index.html">home</a>
-        <!-- 
+        
         
         <label for="seiten"></label>
 
@@ -31,9 +31,10 @@
     
 </select>
     
-     -->
+    
     </nav>
 </header>
+<div class="carousel-container">
 <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -65,12 +66,19 @@
   </button>
 </div>
 
+<form  onsubmit="alert('Vielen Dank! Ihre Nachricht wurde abgesendet.');">
+    <div class="kontaktformular">
+        <h1>Kontakt</h1>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="E-Mail" required>
+        <textarea class="kontaktarea" placeholder="Nachricht" required></textarea>
+        <button type="submit"><a href="contact.html"></a>Absenden</button>
+    </div>
+</form>
 
 
 
-
-
-
+</div>
 
 
 
@@ -90,14 +98,17 @@
 
      <footer class="footer">
 
-             <p class="kontakt">Kontakt <br>
-
-Noser Young AG <br>
-Herostrasse 12 <br>
-CH-8048 Zürich <br>
-zuerich@noseryoung.ch <br>
-+41 31 917 53 80
+    <p class="kontakt">
+  <a href="./contact.html">
+    Kontakt <br>
+    Noser Young AG <br>
+    Herostrasse 12 <br>
+    CH-8048 Zürich <br>
+    zuerich@noseryoung.ch <br>
+    +41 31 917 53 80
+  </a>
 </p>
+
 
               <!-- social media -->
 
