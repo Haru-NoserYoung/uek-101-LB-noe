@@ -64,67 +64,18 @@ a:hover {
 
 
 
+.Bloglink {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+text-align: center;
+    width: 200px;
+    padding: 20px;
 
-
-
-
-
-/* alles am boden (footer) */
-
-
-.Footerschwarz {
-    background-color: #0c0c0c;
-    height: 2.1em;
-    width: 100%;
-}
-
-
-
-
-
-.footer {
- height: 8em;
-    width: 100%;
     background-color: #3f3f3f;
-    
-
+     border-radius: 5%;
 }
-
-/* da diese schwarzen kästchen */
-
-.footkontaktformat {
-
-    background-color: #2e2e2e;
-
-    width: 5em;
-    height: 5em;
-    color: black;
-    text-align: center;
-   
-}
-
-
-footer {
-    height: 60px;
-    background-color: #858a8c;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 75px;
-}
-
-
-.kontakt {
-    background-color: #2c2c2c;
-    padding: 20px 40px;
-    margin: 0;
-    color: #0c0c0c;
-    overflow: hidden;
-    font-size: 0.61em;
-}
-
-
-
 
 
 
@@ -228,11 +179,13 @@ footer {
 .karte:hover p {
     opacity: 1;
     visibility: visible;
+    background-color:#585858;
+    background-color: rgba(100, 100, 100, 0.9)
 }
 .karte h2 {
     margin: 0;
     padding: 8px;
-    background-color: #585858;
+    background-color: #3f3f3f;
     color: #D1D8DD;
     font-size: 20px;
 }
@@ -242,6 +195,73 @@ footer {
     width: 200px;
     justify-content: center;
 }
+
+
+
+
+/* alles am boden (footer) */
+
+
+.Footerschwarz {
+    background-color: #0c0c0c;
+    height: 2.1em;
+    width: 100%;
+}
+
+
+
+
+
+.footer {
+ height: 8em;
+    width: 100%;
+    background-color: #3f3f3f;
+    
+
+}
+
+/* da diese schwarzen kästchen */
+
+.footkontaktformat {
+
+    background-color: #2e2e2e;
+
+    width: 5em;
+    height: 5em;
+    color: black;
+    text-align: center;
+   
+}
+
+
+footer {
+    height: 60px;
+    background-color: #858a8c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+
+.kontakt {
+    background-color: #2c2c2c;
+    padding: 20px 40px;
+    margin: 0;
+    color: #0c0c0c;
+    overflow: hidden;
+    font-size: 0.61em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* social medias */
