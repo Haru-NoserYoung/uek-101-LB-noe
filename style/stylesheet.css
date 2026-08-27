@@ -222,18 +222,6 @@ text-align: center;
 
 /* da diese schwarzen kästchen */
 
-.footkontaktformat {
-
-    background-color: #2e2e2e;
-
-    width: 5em;
-    height: 5em;
-    color: black;
-    text-align: center;
-   
-}
-
-
 footer {
     height: 60px;
     background-color: #858a8c;
