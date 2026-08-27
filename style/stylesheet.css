@@ -2,7 +2,8 @@ body {
 
     background: #D1D8DD;
     
-    
+    zoom: 1.4;
+
 
 }
 
@@ -194,16 +195,24 @@ text-align: center;
 }
 
 .karte h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     margin: 0;
     padding: 8px;
-    background-color: #3f3f3f;
-    color: #D1D8DD;
+    box-sizing: border-box;
+
+    background-color: rgba(63, 63, 63, 0.7);
+    color: rgba(209, 216, 221, 1);
     font-size: 20px;
+    z-index: 2;
 }
 
 .karte {
     width: 200px;
-    justify-content: center;
+   position: relative;
+    
 }
 
 
@@ -215,6 +224,7 @@ text-align: center;
     background-color: #0c0c0c;
     height: 2.1em;
     width: 100%;
+    color: white;
 }
 
 .footer {

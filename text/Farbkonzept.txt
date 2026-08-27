@@ -10,3 +10,15 @@ Navbar:
 
 footer:
 #3f3f3f
+
+
+dropdown menü
+Hintergrund: #E7BC13;
+Rand: #90760e;
+
+
+Links:
+
+Hover #646464
+Normal: Black
+

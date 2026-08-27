@@ -6,5 +6,9 @@ blog:
 Titelbild Statisch
 BlogTitel Backround 30% vom Bild
 
+
+
+was ist damit gemeint?
+
 kontakt:
 Bei "Senden" wird man auf die Index Seite weitergeleitet
