@@ -14,7 +14,7 @@ header {
 nav {
 
    background-color: #585858;
-   height: 2em;
+   height: 4em;
 }
 img {
 
@@ -30,6 +30,27 @@ width: 100%;
 
 
 
+.bild {
+
+    width: 6%;
+    height: 100%;
+}
+
+a  {
+
+    color: black !important;
+    text-decoration: none !important;
+    
+
+}
+
+
+a:hover {
+
+    color: rgb(100, 100, 100) !important;
+    text-decoration: none !important;
+
+}
 
 
 
@@ -38,13 +59,7 @@ width: 100%;
 
 
 
-
-
-
-
-
-
-
+/* alles am boden (footer) */
 
 
 .Footerschwarz {
@@ -68,4 +83,34 @@ width: 100%;
     background-color: #3f3f3f;
     
 
+}
+
+/* da diese schwarzen kästchen */
+
+.footkontaktformat {
+
+    background-color: #2e2e2e;
+
+    width: 5em;
+    height: 5em;
+    color: black;
+    text-align: center;
+   
+}
+
+
+footer {
+    height: 60px;
+    background-color: #858a8c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+}
+
+
+footer p {
+    background-color: #5f6466;
+    padding: 15px 20px;
+    margin: 0;
 }
